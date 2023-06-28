@@ -8,8 +8,7 @@ class Output:
             "INFO": (Fore.LIGHTBLUE_EX, "*"),
             "INFO2": (Fore.LIGHTCYAN_EX, "^"),
             "ERROR": (Fore.LIGHTRED_EX, "!"),
-            "SUCCESS": (Fore.LIGHTGREEN_EX, "$"),
-            "INPUT": (Fore.LIGHTBLACK_EX, "?")
+            "SUCCESS": (Fore.LIGHTGREEN_EX, "$") 
         }
 
     def log(self, *args, **kwargs):
